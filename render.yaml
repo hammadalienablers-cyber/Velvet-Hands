@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: velvet-hands
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/settings
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: ADMIN_TOKEN_SECRET
+        generateValue: true
