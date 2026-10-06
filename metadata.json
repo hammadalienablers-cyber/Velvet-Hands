@@ -1,0 +1,6 @@
+{
+  "name": "CraftNest - DIY & Craft Tutorial Blog",
+  "description": "Step-by-step DIY craft tutorials, paper crafts, home decor, recycling ideas, and handmade inspiration with a built-in admin publishing panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
